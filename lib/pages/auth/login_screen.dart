@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen>
     super.initState();
 
     _controller = AnimationController(
-      duration: Duration(milliseconds: 300),
+      duration: Duration(milliseconds: 1000),
       vsync: this,
     );
 
